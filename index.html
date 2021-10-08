@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lee Nock - Portfolio</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-secondary">
+    <nav class="navbar navbar-dark bg-dark container-fluid">
+      <!-- Navbar content -->
+      <div class="btn-group" role="group" aria-label="rel-links">
+        <button type="button" class="btn btn-secondary" id="github-btn" href="https://github.com/Lee0997">
+          <i class="fab fa-github fa-3x"></i>
+        </button>
+        <button type="button" class="btn btn-secondary" id="linkedin-btn" href="https://www.linkedin.com/in/lee-nock-9a3b36154/">
+          <i class="fab fa-linkedin-in fa-3x"></i>
+        </button>
+        <button type="button" class="btn btn-secondary" id="twitter-btn" href="https://twitter.com/Lee_0997">
+          <i class="fab fa-twitter fa-3x"></i>
+        </button>
+      </div>
+      <div class="justify-content-center text-center">
+        <p class="h1 text-light">
+          Lee Nock
+          <small class="text-muted h4">A Web Developer In The Making...</small>
+        </p>
+      </div>
+    </nav>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./public/images/me.jpg" class="card-img-top" alt="selfie">
+              <div class="card-body">
+                <h5 class="card-title">A bit about myself!</h5>
+                <p class="card-text">I'm a new developer, learning to code with the University of Birmingham's coding bootcamp. So far I have learnt the following:</p>
+                <ul class="list-group">
+                  <li class="list-group-item">HTML and CSS</li>
+                  <li class="list-group-item">JavaScript (jQuery, Express.js, React.js, Node.js).</li>
+                  <li class="list-group-item">I learnt to use frameworks such as Bootstrap and Tailwind.</li>
+                  <li class="list-group-item">I can employ databases such as MongoDB and MySQL.</li>
+                  <li class="list-group-item">I am familiar and confident with the use of Github's features for agile working.</li>
+                </ul>
+                <a href="https://docs.google.com/document/d/1hbPj5V6HpA7QmLlfEnQeTaFxRVuu8wLt/edit?usp=sharing&ouid=108683363049057376621&rtpof=true&sd=true" class="btn btn-primary justify">My CV</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <h1 class="display-4 text-light">Some of my work so far</h1>
+            <h5 class="text-light">As a newcomer to coding with a background in construction and hospitality, my journey is and has been a difficult one.
+               Below you will see some of the work I have managed to pull off with time, stress, effort and a lot of coffee.
+               Whilst I would very much like to hang my head in shame with my earlier work, I think it's important to note
+               my improvements in such a short amount of time. The more I learn, the more passionate I am becoming.</h5>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./public/images/first-quiz.png" class="d-block w-100" alt="quiz" href="https://lee0997.github.io/Timed-Quiz/">
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/images/first-project.png" class="d-block w-100" alt="first-project">
+                </div>                
+                <div class="carousel-item">
+                  <img src="./public/images/second-project.png" class="d-block w-100" alt="second-project">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="list-group">
+              <a href="https://lee0997.github.io/Timed-Quiz/" class="list-group-item list-group-item-action">Quiz - Very early days...</a>
+              <a href="https://dan297.github.io/Project1MusicAPI/" class="list-group-item list-group-item-action">First Project - First use of APIs</a>
+              <a href="https://movie-time-mlm.herokuapp.com/" class="list-group-item list-group-item-action">Second Project - How it's going so far (a lot better)</a>
+            </div>
+          </div>
+          <div class="col-3">
+            <h2 class="text-light">In the first slide, you will see a quiz I created for a homework. It's a very good representation
+              of the stage I began at. The second slide actually features my first use of APIs, it doesn't look pretty but it successfully pulls
+              data from a music API to display albums to the user. The third slide is the second project I completed on my course (still ongoing),
+              and shows just one page of a fairly complex media library I created with my team. It is complete with multiple restful APIs, database
+              employment, models, handlebars etc. 
+            </h2>
+          </div>
+        </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
